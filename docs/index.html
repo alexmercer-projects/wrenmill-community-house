@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wrenmill Community House, Ashford Ferry (concept demo)</title>
+  <meta name="description" content="Concept demo website for Wrenmill Community House, a fictional small-town nonprofit: this week's events, programs, hall rental, volunteer and donate. Designed and built by Alex Mercer. Not a real organization.">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#24362c">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2324362c'/%3E%3Cpath d='M6 22V14l10-7 10 7v8H6z' fill='none' stroke='%23e8d5a8' stroke-width='2'/%3E%3Cpath d='M14 22v-6h4v6' fill='none' stroke='%23c45c32' stroke-width='2'/%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="demo-bar" role="note">
+    <p><b>Concept demo by Alex Mercer.</b> Made-up organization. Names, times and contact details are placeholders.</p>
+  </div>
+
+  <header class="top">
+    <div class="wrap top__inner">
+      <a class="logo" href="#main" aria-label="Wrenmill Community House, home">
+        <svg class="logo__mark" viewBox="0 0 48 48" aria-hidden="true">
+          <rect x="1" y="1" width="46" height="46" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
+          <path d="M8 30V20.5L24 10l16 10.5V30H8z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+          <path d="M20 30v-8h8v8" fill="none" stroke="var(--clay)" stroke-width="2.2"/>
+        </svg>
+        <span class="logo__word">
+          <span>Wrenmill</span>
+          <small>Community House · Ashford Ferry</small>
+        </span>
+      </a>
+      <nav class="top__nav" aria-label="Main">
+        <a href="#week">This week</a>
+        <a href="#programs">Programs</a>
+        <a href="#hall">Rent the hall</a>
+        <a href="#involved">Get involved</a>
+      </nav>
+      <a class="top__cta" href="#involved">Volunteer</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-h">
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow">A small nonprofit in Ashford Ferry</p>
+          <h1 id="hero-h">The hall at the<br><em>center of town.</em></h1>
+          <p class="hero__lede">Wrenmill keeps a warm room, a public calendar, and a door that's easy to walk through. After-school club, Wednesday senior lunch, first-Friday potluck, and a hall you can rent for a meeting or a small celebration.</p>
+          <div class="hero__cta">
+            <a class="btn btn--clay" href="#week">See this week</a>
+            <a class="btn btn--ghost" href="#involved">Volunteer or donate</a>
+          </div>
+          <p class="hero__meta">Desk open Monday to Friday, 9 to 5, and Saturday 10 to 2, at 14 Ferry Road.</p>
+        </div>
+        <div class="hero__art" aria-hidden="true">
+          <svg viewBox="0 0 480 420" class="hall">
+            <rect width="480" height="420" fill="#e7efe8"/>
+            <rect x="0" y="300" width="480" height="120" fill="#cfdccf"/>
+            <path d="M0 300h480" stroke="#9bb09a" stroke-width="2"/>
+            <ellipse cx="86" cy="318" rx="34" ry="10" fill="#8fa38c"/>
+            <rect x="70" y="250" width="8" height="70" fill="#4d6a52"/>
+            <circle cx="74" cy="244" r="16" fill="#3d5a42"/>
+            <ellipse cx="400" cy="322" rx="40" ry="11" fill="#8fa38c"/>
+            <rect x="388" y="248" width="9" height="76" fill="#4d6a52"/>
+            <circle cx="392" cy="240" r="18" fill="#32503a"/>
+            <!-- hall body -->
+            <path d="M78 210h324v130H78z" fill="#f4efe4" stroke="#2a3d31" stroke-width="3"/>
+            <path d="M64 214 L240 86 L416 214" fill="#3e5a46" stroke="#24362c" stroke-width="3" stroke-linejoin="round"/>
+            <path d="M220 86h40v36h-40z" fill="#c45c32"/>
+            <path d="M214 86h52v8h-52z" fill="#24362c"/>
+            <!-- windows -->
+            <g fill="#d7e6ea" stroke="#24362c" stroke-width="2.4">
+              <rect x="110" y="230" width="54" height="64" rx="2"/>
+              <rect x="316" y="230" width="54" height="64" rx="2"/>
+            </g>
+            <path d="M137 230v64M110 262h54M343 230v64M316 262h54" stroke="#24362c" stroke-width="1.6"/>
+            <!-- door -->
+            <path d="M206 248h68v92h-68z" fill="#6b3a28" stroke="#24362c" stroke-width="2.4"/>
+            <circle cx="262" cy="300" r="3.2" fill="#e8d5a8"/>
+            <path d="M240 248v92" stroke="#24362c" stroke-width="1.4"/>
+            <!-- steps -->
+            <path d="M196 340h88v12h-88z" fill="#d9d0bf" stroke="#24362c" stroke-width="2"/>
+            <path d="M186 352h108v10h-108z" fill="#cfc5b2" stroke="#24362c" stroke-width="2"/>
+            <!-- sign -->
+            <rect x="118" y="196" width="244" height="26" rx="2" fill="#f7f1e4" stroke="#24362c" stroke-width="2"/>
+            <text x="240" y="214" text-anchor="middle" font-size="10" font-family="Libre Franklin, sans-serif" fill="#24362c" font-weight="650" letter-spacing="0.8">WRENMILL COMMUNITY HOUSE</text>
+            <!-- warm light -->
+            <rect x="214" y="262" width="26" height="36" fill="#f3d48a" opacity=".55"/>
+          </svg>
+          <p class="hero__art-cap">14 Ferry Road, Ashford Ferry · concept location</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="week" id="week" aria-labelledby="week-h">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">The calendar</p>
+          <h2 id="week-h">This week at the house</h2>
+          <p>Walk in for any public event. If you want to reserve the hall, call the desk or use the form below.</p>
+        </div>
+        <ol class="events">
+          <li>
+            <time datetime="2026-11-18">Wed · Nov 18</time>
+            <h3>Senior lunch</h3>
+            <p>Noon to 1:30. A simple hot meal in the main hall. No sign-up needed. Suggested $5, or come as a guest.</p>
+          </li>
+          <li>
+            <time datetime="2026-11-20">Fri · Nov 20</time>
+            <h3>First Friday potluck</h3>
+            <p>6 to 8 pm. Bring a dish if you can. Plates and coffee are on us. Kids are welcome.</p>
+          </li>
+          <li>
+            <time datetime="2026-11-21">Sat · Nov 21</time>
+            <h3>Winter coat drive</h3>
+            <p>10 am to 2 pm. Drop off clean coats in the foyer, or pick one up if you need one. No paperwork.</p>
+          </li>
+          <li>
+            <time datetime="2026-11-24">Tue · Nov 24</time>
+            <h3>Town band rehearsal</h3>
+            <p>7 to 9 pm. A hall rental, not a public concert. The side door stays open for band members.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="programs" id="programs" aria-labelledby="programs-h">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">What we run</p>
+          <h2 id="programs-h">Programs that stay on the calendar</h2>
+        </div>
+        <ul class="cards">
+          <li>
+            <p class="cards__tag">Tuesdays and Thursdays</p>
+            <h3>After-school club</h3>
+            <p>3:15 to 5:30, for ages 7 to 12. Homework first, then games or art. A snack is included. $10 a week, or talk to us if that is a stretch.</p>
+          </li>
+          <li>
+            <p class="cards__tag">Every Wednesday</p>
+            <h3>Senior lunch</h3>
+            <p>A sit-down meal at noon, then coffee and cards if you want to stay. We can arrange a ride within Ashford Ferry if you call the day before.</p>
+          </li>
+          <li>
+            <p class="cards__tag">First Friday of the month</p>
+            <h3>Community potluck</h3>
+            <p>The easiest way to meet neighbors. No program, no speaker, just a long table and enough chairs.</p>
+          </li>
+          <li>
+            <p class="cards__tag">By request</p>
+            <h3>Hall rental</h3>
+            <p>Meetings, small parties, rehearsal, a memorial. The main hall seats about 80. Kitchen use is extra and we ask you to leave it as you found it.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="hall" id="hall" aria-labelledby="hall-h">
+      <div class="wrap hall__grid">
+        <div>
+          <p class="eyebrow">Using the building</p>
+          <h2 id="hall-h">Rent the hall for a few hours or a full day</h2>
+          <p>The main room has tables, chairs, a piano, and a small kitchen. Evening rentals end at 10 pm so the neighbors can sleep. We do not book parties with a cash bar.</p>
+          <dl class="rates">
+            <div><dt>Weekday morning or afternoon</dt><dd>$60 for 4 hours</dd></div>
+            <div><dt>Weekday evening</dt><dd>$80 for 4 hours</dd></div>
+            <div><dt>Saturday</dt><dd>$125 for 6 hours</dd></div>
+            <div><dt>Kitchen use</dt><dd>$25 added to any booking</dd></div>
+          </dl>
+          <p class="hall__note">These rates are sample figures for this demo, not a real price list.</p>
+        </div>
+        <aside class="hours" aria-labelledby="hours-h">
+          <h3 id="hours-h">Desk hours and how to reach us</h3>
+          <ul>
+            <li><span>Monday to Friday</span> <span>9 am to 5 pm</span></li>
+            <li><span>Saturday</span> <span>10 am to 2 pm</span></li>
+            <li><span>Sunday</span> <span>Closed</span></li>
+          </ul>
+          <p class="hours__addr">14 Ferry Road<br>Ashford Ferry<br>(555) 010-0247<br>hello@example.com</p>
+          <p class="hours__demo">Placeholder address and number. This organization does not exist.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="involved" id="involved" aria-labelledby="involved-h">
+      <div class="wrap involved__grid">
+        <div>
+          <p class="eyebrow">Get involved</p>
+          <h2 id="involved-h">Volunteer a shift, or help keep the lights on</h2>
+          <p>Most weeks we need help with lunch service, after-school, and unlocking for rentals. If money is easier than time, a donation goes to food, heat, and keeping the hall open on Saturdays.</p>
+          <form class="form" action="#" method="get" onsubmit="return false;">
+            <p class="form__demo">Demo form. It does not send.</p>
+            <label>Your name
+              <input type="text" name="name" autocomplete="name" placeholder="Your name">
+            </label>
+            <label>Email
+              <input type="email" name="email" autocomplete="email" placeholder="you@example.com">
+            </label>
+            <label>How you'd like to help
+              <select name="help">
+                <option>Volunteer at senior lunch</option>
+                <option>Help with after-school club</option>
+                <option>Unlock or close for a rental</option>
+                <option>Ask about donating</option>
+              </select>
+            </label>
+            <button type="button" class="btn btn--clay">Send a note (demo)</button>
+          </form>
+        </div>
+        <div class="give">
+          <h3>A one-time gift</h3>
+          <p>In a real build this would go to your payment tool. Here the amounts are only examples.</p>
+          <div class="give__amounts" role="group" aria-label="Example donation amounts">
+            <button type="button">$15</button>
+            <button type="button">$30</button>
+            <button type="button">$50</button>
+            <button type="button">Other</button>
+          </div>
+          <p class="give__note">No payment is collected on this page.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__inner">
+      <p><b>Wrenmill Community House</b> is a concept demo by Alex Mercer. It is not a real nonprofit, and it is not affiliated with any town, school, or community group. Names, prices, hours and contact details are placeholders.</p>
+      <p>14 Ferry Road, Ashford Ferry · (555) 010-0247 · hello@example.com</p>
+    </div>
+  </footer>
+</body>
+</html>
